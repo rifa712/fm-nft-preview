@@ -11,7 +11,7 @@ module.exports = {
         white: 'hsl(0, 0%, 100%)',
       },
       fontFamily: {
-        outfit: ['Outfit', 'sans-serif'],
+        roboto: ['Roboto Mono', 'monospace'],
       },
       fontWeight: {
         300: '300',
@@ -21,6 +21,13 @@ module.exports = {
       fontSize: {
         paragraph: '18px',
       },
+      width: {
+        desktop: '1440px',
+        mobile: '375px',
+      },
+      // screen: {
+      //   break: '640px',
+      // },
     },
   },
   plugins: [],
