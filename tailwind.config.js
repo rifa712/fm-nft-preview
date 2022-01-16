@@ -4,7 +4,7 @@ module.exports = {
     extend: {
       colors: {
         'primary-sb': 'hsl(215, 51%, 70%)',
-        'primary-cyan': 'hsl(215, 51%, 70%)',
+        'primary-cyan': 'hsl(178, 100%, 50%)',
         'main-bg': 'hsl(217, 54%, 11%)',
         'card-bg': 'hsl(216, 50%, 16%)',
         line: 'hsl(215, 32%, 27%)',
@@ -25,9 +25,9 @@ module.exports = {
         desktop: '1440px',
         mobile: '375px',
       },
-      // screen: {
-      //   break: '640px',
-      // },
+      screens: {
+        'mb-sm': '360px',
+      },
     },
   },
   plugins: [],
